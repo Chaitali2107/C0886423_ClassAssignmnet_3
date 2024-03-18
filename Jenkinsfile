@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'https://github.com/Chaitali2107/C0886423_ClassAssignmnet_3.git', branch: 'master'], credentialsId:'Dummy')
+        git([url: 'https://github.com/Chaitali2107/C0886423_ClassAssignmnet_3.git', branch: 'main'])
  
       }
     }
